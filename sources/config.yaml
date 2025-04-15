@@ -1,0 +1,6 @@
+sources:
+  - masters/IntelOneMono-Roman.designspace
+  - masters/IntelOneMono-Italic.designspace
+buildOTF: false
+buildWebfont: false
+buildStatic: false
