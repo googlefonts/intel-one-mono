@@ -54,7 +54,7 @@
       <point x="-235" y="320"/>
       <point x="-220" y="326"/>
     </contour>
-    <component base="arrowheadleft" xOffset="-1228"/>
     <component base="arrowheadright"/>
+    <component base="arrowheadleft" xOffset="-1228"/>
   </outline>
 </glyph>

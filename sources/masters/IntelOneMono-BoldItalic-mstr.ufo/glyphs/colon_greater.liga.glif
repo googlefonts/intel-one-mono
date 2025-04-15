@@ -2,7 +2,7 @@
 <glyph name="colon_greater.liga" format="2">
   <advance width="614"/>
   <outline>
-    <component base="colon.fig" xOffset="-604"/>
     <component base="greater" xOffset="-70"/>
+    <component base="colon.fig" xOffset="-604"/>
   </outline>
 </glyph>
