@@ -1,12 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.1">
   <axes>
-    <axis tag="nwx0" name="weight" minimum="60" maximum="144" default="60"/>
+    <axis tag="wght" name="Weight" minimum="300" maximum="700" default="300">
+      <map input="300" output="60"/>
+      <map input="400" output="86"/>
+      <map input="500" output="112"/>
+      <map input="700" output="144"/>
+    </axis>
   </axes>
   <rules>
     <rule name="Bars">
       <conditionset>
-        <condition name="weight" minimum="60" maximum="90"/>
+        <condition name="Weight" minimum="60" maximum="90"/>
       </conditionset>
       <sub name="dollar" with="dollar.bar"/>
       <sub name="naira" with="naira.bar"/>
@@ -20,13 +25,13 @@
     </rule>
     <rule name="Q">
       <conditionset>
-        <condition name="weight" minimum="60" maximum="90"/>
+        <condition name="Weight" minimum="60" maximum="90"/>
       </conditionset>
       <sub name="Q.bar" with="Q"/>
     </rule>
     <rule name="Oslash">
       <conditionset>
-        <condition name="weight" minimum="60" maximum="90"/>
+        <condition name="Weight" minimum="60" maximum="90"/>
       </conditionset>
       <sub name="Oslash.bar" with="Oslash"/>
       <sub name="oslash.bar" with="oslash"/>
@@ -39,40 +44,40 @@
       <features copy="1"/>
       <info copy="1"/>
       <location>
-        <dimension name="weight" xvalue="60"/>
+        <dimension name="Weight" xvalue="60"/>
       </location>
     </source>
     <source filename="IntelOneMono-BoldItalic-mstr.ufo" familyname="Intel One Mono" stylename="Bold Italic">
       <location>
-        <dimension name="weight" xvalue="144"/>
+        <dimension name="Weight" xvalue="144"/>
       </location>
     </source>
   </sources>
   <instances>
     <instance familyname="Intel One Mono" stylename="Light Italic" filename="instances/IntelOneMono-LightItalic.ufo">
       <location>
-        <dimension name="weight" xvalue="60"/>
+        <dimension name="Weight" xvalue="60"/>
       </location>
       <kerning/>
       <info/>
     </instance>
     <instance familyname="Intel One Mono" stylename="Italic" filename="instances/IntelOneMono-Italic.ufo">
       <location>
-        <dimension name="weight" xvalue="86"/>
+        <dimension name="Weight" xvalue="86"/>
       </location>
       <kerning/>
       <info/>
     </instance>
     <instance familyname="Intel One Mono" stylename="Medium Italic" filename="instances/IntelOneMono-MediumItalic.ufo">
       <location>
-        <dimension name="weight" xvalue="112"/>
+        <dimension name="Weight" xvalue="112"/>
       </location>
       <kerning/>
       <info/>
     </instance>
     <instance familyname="Intel One Mono" stylename="Bold Italic" filename="instances/IntelOneMono-BoldItalic.ufo">
       <location>
-        <dimension name="weight" xvalue="144"/>
+        <dimension name="Weight" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
