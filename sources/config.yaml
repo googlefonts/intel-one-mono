@@ -1,5 +1,5 @@
 sources:
-  - masters/IntelOneMono-Roman.designspace
+  - masters/IntelOneMono.designspace
   - masters/IntelOneMono-Italic.designspace
 buildOTF: false
 buildWebfont: false
