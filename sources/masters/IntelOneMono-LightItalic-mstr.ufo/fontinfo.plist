@@ -306,6 +306,8 @@
       <integer>2</integer>
       <integer>4</integer>
     </array>
+    <key>styleMapStyleName</key>
+    <string>italic</string>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>7</integer>
