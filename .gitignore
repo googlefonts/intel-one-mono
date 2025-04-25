@@ -1,4 +1,14 @@
-.DS_Store
+*~
+venv
+venv-test
+build.stamp
+proof
+# fonts
+node_modules
+package-lock.json
+package.json
+master_ufo
 instance_ufos
-build.ninja
 .ninja_log
+build.ninja
+out
