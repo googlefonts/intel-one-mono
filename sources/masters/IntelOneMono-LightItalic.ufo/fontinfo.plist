@@ -63,8 +63,6 @@
       <integer>2</integer>
       <integer>4</integer>
     </array>
-    <key>styleMapStyleName</key>
-    <string>italic</string>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>7</integer>
@@ -133,6 +131,8 @@
     <array>
       <integer>57</integer>
     </array>
+    <key>styleMapStyleName</key>
+    <string>italic</string>
     <key>styleName</key>
     <string>Light Italic</string>
     <key>unitsPerEm</key>
@@ -140,7 +140,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>4</integer>
+    <integer>5</integer>
     <key>xHeight</key>
     <integer>460</integer>
   </dict>
