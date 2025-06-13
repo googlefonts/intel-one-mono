@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.1">
+<designspace format="5.1">
   <axes>
     <axis tag="wght" name="Weight" minimum="300" maximum="700" default="300">
       <map input="300" output="60"/>
@@ -38,49 +38,142 @@
     </rule>
   </rules>
   <sources>
-    <source filename="IntelOneMono-Light-mstr.ufo" familyname="Intel One Mono" stylename="Light">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="IntelOneMono-Light.ufo" familyname="Intel One Mono" stylename="Light">
       <location>
         <dimension name="Weight" xvalue="60"/>
       </location>
     </source>
-    <source filename="IntelOneMono-Bold-mstr.ufo" familyname="Intel One Mono" stylename="Bold">
+    <source filename="IntelOneMono-Bold.ufo" familyname="Intel One Mono" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="144"/>
       </location>
     </source>
   </sources>
   <instances>
-    <instance familyname="Intel One Mono" stylename="Light" filename="instances/IntelOneMono-Light.ufo">
+    <instance name="Intel One Mono Light" familyname="Intel One Mono" stylename="Light" filename="instance_ufos/IntelOneMono-Light.ufo" stylemapstylename="regular" stylemapfamilyname="Intel One Mono Light">
       <location>
         <dimension name="Weight" xvalue="60"/>
       </location>
-      <kerning/>
-      <info/>
+          <lib>
+      <dict>
+        <key>public.fontInfo</key>
+        <dict>
+          <key>openTypeOS2Panose</key>
+          <array>
+            <integer>2</integer>
+            <integer>11</integer>
+            <integer>3</integer>
+            <integer>9</integer>
+            <integer>2</integer>
+            <integer>2</integer>
+            <integer>3</integer>
+            <integer>9</integer>
+            <integer>2</integer>
+            <integer>4</integer>
+          </array>
+        </dict>
+      </dict>
+    </lib>
     </instance>
-    <instance familyname="Intel One Mono" stylename="Regular" filename="instances/IntelOneMono-Regular.ufo">
+    <instance name="Intel One Mono Regular" familyname="Intel One Mono" stylename="Regular" filename="instance_ufos/IntelOneMono-Regular.ufo" stylemapstylename="regular" stylemapfamilyname="Intel One Mono">
       <location>
         <dimension name="Weight" xvalue="86"/>
       </location>
-      <kerning/>
-      <info/>
+    <lib>
+      <dict>
+        <key>public.fontInfo</key>
+        <dict>
+          <key>openTypeOS2Panose</key>
+          <array>
+            <integer>2</integer>
+            <integer>11</integer>
+            <integer>5</integer>
+            <integer>9</integer>
+            <integer>2</integer>
+            <integer>2</integer>
+            <integer>3</integer>
+            <integer>9</integer>
+            <integer>2</integer>
+            <integer>4</integer>
+          </array>
+        </dict>
+      </dict>
+    </lib>
     </instance>
-    <instance familyname="Intel One Mono" stylename="Medium" filename="instances/IntelOneMono-Medium.ufo">
+    <instance name="Intel One Mono Medium" familyname="Intel One Mono" stylename="Medium" filename="instance_ufos/IntelOneMono-Medium.ufo" stylemapstylename="regular" stylemapfamilyname="Intel One Mono Medium">
       <location>
         <dimension name="Weight" xvalue="112"/>
       </location>
-      <kerning/>
-      <info/>
+          <lib>
+      <dict>
+        <key>public.fontInfo</key>
+        <dict>
+          <key>openTypeOS2Panose</key>
+          <array>
+            <integer>2</integer>
+            <integer>11</integer>
+            <integer>6</integer>
+            <integer>9</integer>
+            <integer>2</integer>
+            <integer>2</integer>
+            <integer>3</integer>
+            <integer>9</integer>
+            <integer>2</integer>
+            <integer>4</integer>
+          </array>
+        </dict>
+      </dict>
+    </lib>
     </instance>
-    <instance familyname="Intel One Mono" stylename="Bold" filename="instances/IntelOneMono-Bold.ufo">
+    <instance name="Intel One Mono SemiBold" familyname="Intel One Mono" stylename="SemiBold" filename="instance_ufos/IntelOneMono-SemiBold.ufo" stylemapstylename="regular" stylemapfamilyname="Intel One Mono SemiBold">
       <location>
         <dimension name="Weight" xvalue="144"/>
       </location>
-      <kerning/>
-      <info/>
+    <lib>
+      <dict>
+        <key>public.fontInfo</key>
+        <dict>
+          <key>openTypeOS2Panose</key>
+          <array>
+            <integer>2</integer>
+            <integer>11</integer>
+            <integer>7</integer>
+            <integer>9</integer>
+            <integer>2</integer>
+            <integer>2</integer>
+            <integer>3</integer>
+            <integer>2</integer>
+            <integer>2</integer>
+            <integer>4</integer>
+          </array>
+        </dict>
+      </dict>
+    </lib>
+    </instance>
+    <instance name="Intel One Mono Bold" familyname="Intel One Mono" stylename="Bold" filename="instance_ufos/IntelOneMono-Bold.ufo" stylemapstylename="bold" stylemapfamilyname="Intel One Mono">
+      <location>
+        <dimension name="Weight" xvalue="144"/>
+      </location>
+    <lib>
+      <dict>
+        <key>public.fontInfo</key>
+        <dict>
+          <key>openTypeOS2Panose</key>
+          <array>
+            <integer>2</integer>
+            <integer>11</integer>
+            <integer>8</integer>
+            <integer>9</integer>
+            <integer>2</integer>
+            <integer>2</integer>
+            <integer>3</integer>
+            <integer>2</integer>
+            <integer>2</integer>
+            <integer>4</integer>
+          </array>
+        </dict>
+      </dict>
+    </lib>
     </instance>
   </instances>
   <lib>

@@ -12,3 +12,4 @@ instance_ufos
 .ninja_log
 build.ninja
 out
+.DS_Store
