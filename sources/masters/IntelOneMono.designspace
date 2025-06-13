@@ -125,6 +125,31 @@
       </dict>
     </lib>
     </instance>
+    <instance name="Intel One Mono SemiBold" familyname="Intel One Mono" stylename="SemiBold" filename="instance_ufos/IntelOneMono-SemiBold.ufo" stylemapstylename="regular" stylemapfamilyname="Intel One Mono SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="144"/>
+      </location>
+    <lib>
+      <dict>
+        <key>public.fontInfo</key>
+        <dict>
+          <key>openTypeOS2Panose</key>
+          <array>
+            <integer>2</integer>
+            <integer>11</integer>
+            <integer>7</integer>
+            <integer>9</integer>
+            <integer>2</integer>
+            <integer>2</integer>
+            <integer>3</integer>
+            <integer>2</integer>
+            <integer>2</integer>
+            <integer>4</integer>
+          </array>
+        </dict>
+      </dict>
+    </lib>
+    </instance>
     <instance name="Intel One Mono Bold" familyname="Intel One Mono" stylename="Bold" filename="instance_ufos/IntelOneMono-Bold.ufo" stylemapstylename="bold" stylemapfamilyname="Intel One Mono">
       <location>
         <dimension name="Weight" xvalue="144"/>

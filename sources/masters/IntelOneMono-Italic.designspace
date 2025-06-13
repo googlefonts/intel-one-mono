@@ -135,6 +135,33 @@
         </dict>
     </lib>
     </instance>
+    <instance familyname="Intel One Mono" stylename="SemiBold Italic" filename="instances/IntelOneMono-SemiBoldItalic.ufo" stylemapstylename="italic" stylemapfamilyname="Intel One Mono SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="112"/>
+      </location>
+      <kerning/>
+      <info/>
+       <lib>
+        <dict>
+            <key>public.fontInfo</key>
+            <dict>
+                <key>openTypeOS2Panose</key>
+                <array>
+                  <integer>2</integer>
+                  <integer>11</integer>
+                  <integer>7</integer>
+                  <integer>9</integer>
+                  <integer>2</integer>
+                  <integer>2</integer>
+                  <integer>3</integer>
+                  <integer>9</integer>
+                  <integer>2</integer>
+                  <integer>4</integer>
+                </array>
+            </dict>
+        </dict>
+    </lib>
+    </instance>
     <instance familyname="Intel One Mono" stylename="Bold Italic" filename="instances/IntelOneMono-BoldItalic.ufo" stylemapstylename="bold italic" stylemapfamilyname="Intel One Mono">
       <location>
         <dimension name="Weight" xvalue="144"/>
