@@ -3,4 +3,16 @@ sources:
   - masters/IntelOneMono-Italic.designspace
 buildOTF: false
 buildWebfont: false
-buildStatic: false
+buildTTF: true
+buildStatic: true
+extraFontmakeArgs: "--fea-include-dir=features"
+vttSources:
+  IntelOneMono-Light.ttf: hinting/IntelOneMono-Light_VTT_Hinting.ttx
+  IntelOneMono-Regular.ttf: hinting/IntelOneMono-Regular_VTT_Hinting.ttx
+  IntelOneMono-Medium.ttf: hinting/IntelOneMono-Medium_VTT_Hinting.ttx
+  IntelOneMono-Bold.ttf: hinting/IntelOneMono-Bold_VTT_Hinting.ttx
+  IntelOneMono-LightItalic.ttf: hinting/IntelOneMono-LightItalic_VTT_Hinting.ttx
+  IntelOneMono-Italic.ttf: hinting/IntelOneMono-Italic_VTT_Hinting.ttx
+  IntelOneMono-MediumItalic.ttf: hinting/IntelOneMono-MediumItalic_VTT_Hinting.ttx
+  IntelOneMono-BoldItalic.ttf: hinting/IntelOneMono-BoldItalic_VTT_Hinting.ttx
+includeSourceFixes: true

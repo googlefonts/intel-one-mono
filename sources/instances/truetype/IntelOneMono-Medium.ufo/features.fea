@@ -1,6 +1,0 @@
-
-include(../../features/shared.fea);
-
-include(../../features/mark/IntelOneMono-Medium mark.fea);
-
-include(../../features/aalt.fea);
