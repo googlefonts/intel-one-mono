@@ -18,7 +18,7 @@ compreffor==0.5.6
 cryptography==45.0.4
 defcon==0.12.1
 Deprecated==1.2.18
-filelock==3.18.0
+filelock==3.20.1
 font-v==2.1.0
 fontFeatures==1.8.0
 fontmake==3.10.1
