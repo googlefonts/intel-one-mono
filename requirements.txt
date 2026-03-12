@@ -47,7 +47,7 @@ networkx==3.5
 ninja==1.11.1.4
 openstep_plist==0.5.0
 opentype-sanitizer==9.2.0
-orjson==3.10.18
+orjson==3.11.6
 packaging==25.0
 picosvg==0.22.3
 pillow==11.2.1
