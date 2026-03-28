@@ -15,7 +15,7 @@ cffi==1.17.1
 cffsubr==0.3.0
 charset-normalizer==3.4.2
 compreffor==0.5.6
-cryptography==45.0.4
+cryptography==46.0.6
 defcon==0.12.1
 Deprecated==1.2.18
 filelock==3.18.0
