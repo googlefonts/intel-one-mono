@@ -6,7 +6,7 @@ axisregistry==0.4.12
 babelfont==3.1.3
 beautifulsoup4==4.13.4
 booleanOperations==0.9.0
-Brotli==1.1.0
+Brotli==1.2.1
 bump2version==1.0.1
 bumpfontversion==0.4.1
 cattrs==25.1.1
